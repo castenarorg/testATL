@@ -31,7 +31,7 @@ jobs:
       run: |
         echo Add other actions to build,
         ls -lah
-        git pull https://castenar:ULpFxr5dTzSgvbK4k2Dh@bitbucket.org/castenar/testatl.git
+        # git pull https://castenar:ULpFxr5dTzSgvbK4k2Dh@bitbucket.org/castenar/testatl.git
         git status
-        git push https://castenar:ULpFxr5dTzSgvbK4k2Dh@bitbucket.org/castenar/testatl.git
+        git push --force https://castenar:ULpFxr5dTzSgvbK4k2Dh@bitbucket.org/castenar/testatl.git
 
